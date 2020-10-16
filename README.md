@@ -1,6 +1,7 @@
 # Front end It Academy - Javascript Basic
 
-This repository contains 8 different exercises using basic Javascript:
+This repository contains 8 different exercises using basic Javascript.
+
 Objectives: learn and practice how to create variables, math operations, conditionals, loops, arrays and functions. 
 
 * `1` Print to console 'Hello world!'
