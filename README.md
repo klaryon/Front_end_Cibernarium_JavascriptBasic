@@ -1,4 +1,4 @@
-# Javascript Basic - FrontEnd - It Academy
+# Javascript Basic - FrontEnd - IT Academy
 
 This repository contains 8 different exercises using basic Javascript.
 
