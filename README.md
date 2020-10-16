@@ -1,1 +1,5 @@
-# Front_end_Cibernarium_JavascriptBasic
+# Front End Cibernarium IT Academy - Javascript Basic
+
+Check branch desarrollo to see all repository info.
+
+
