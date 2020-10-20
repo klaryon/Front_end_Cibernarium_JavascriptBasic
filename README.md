@@ -1,4 +1,4 @@
-## Javascript Basic - FrontEnd - IT Academy
+# Javascript Basic - FrontEnd - IT Academy
 
 This repository contains different Basic Javascript exercises described below. 
 Part of IT Academy FrontEnd itinerary.
@@ -28,3 +28,12 @@ Objectives: Practice basic funcionalities as conditionals (if/else) and loops. D
 * `2` With the same --my name-- array, if the letter is a vowel print to console 'vowel' if not, print 'consonant'. If you find a number, print to console 'A person's name does not have numbers'.
 * `3` Create a Map with a list or an array, which prints to console how many time the letters repeat.
 * `4` Create another list with my last name, where each position is a letter. Merge the 2 lists in one. Leave a blank space between each list. Print to console. 
+
+## Form Validation
+Objectives: validate web page forms with Javascript. 
+
+* `1` Validate search form: 3 characters required.
+* `2` Validate login form: email and password required. Email with correct formatting.
+* `3` Validate register form: email, password, repeat password, and province dropdown required. 
+
+Tip: use "is-invalid" class with Bootstrap 4, not alerts!.
