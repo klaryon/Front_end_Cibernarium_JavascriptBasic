@@ -37,3 +37,7 @@ Objectives: validate web page forms with Javascript.
 * `3` Validate register form: email, password, repeat password, and province dropdown required. 
 
 Tip: use "is-invalid" class with Bootstrap 4, not alerts!.
+
+
+
+
