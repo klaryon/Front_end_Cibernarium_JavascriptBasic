@@ -1,0 +1,343 @@
+body {
+    padding: 50px 0px 0px 0px;
+    z-index: 0;
+    font-family: 'Arial', sans-serif;
+    font-weight: bold;
+}
+
+li {
+    list-style: none; /* remove all lists icon*/
+}
+
+.stylebutton { /* styles buttons in page*/
+    background: black;
+    font-weight: bold;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+.stylebutton:hover
+{
+    background-color: rgb(60, 60, 60);
+}
+
+.stylebutton:focus
+{
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(252, 227, 4, 0.5); /* adds smooth yellow frame @click */
+}
+
+.dotted-box {
+    border: 0;
+    border: 0.1rem dotted;
+}
+
+h5, h4, h3, .btn-secondary {
+    font-weight: bold;
+}
+
+/*--------- navigation section ---------*/
+
+.navbar {
+    background-color:white;
+    box-shadow: 0 1rem 5rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.nav-link:hover {
+    color: gray;
+}
+
+.navbar-toggler:focus { /* removes yellow button outline - sm screen sizes */
+    outline: none;
+}
+
+.navbar-toggler { /* removes light grey button border - sm screen sizes */
+    border: none;
+}
+
+.fa-bars {
+    color: black;
+    font-size: 1.5rem;
+}
+
+.kreative-logo {
+    max-height: 1.8rem;
+}
+
+.dropdown-toggle, .link-signin {
+    font-size: 0.9rem;
+}
+
+.dropdown-item {
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.form-control:focus {
+    border-color: gray;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(252, 227, 4, 0.5); /* change focus color in text forms */
+}
+
+.modal-content {
+    background: url(../img/banner_white.png) center/cover;; 
+}
+
+/*--------- carousel section ---------*/
+
+.main_banner {
+    font: bold 4rem 'Heebo', sans-serif; /* font-weight font-size font-family */
+}
+
+.half_highlight {
+    background: linear-gradient(180deg,rgba(255,255,255,0) 50%, #ffec48 50%); /* adds transparency on top and color below, so fonts highligts are +/- half the font height */
+    font-size: 1.3rem;
+}
+
+.carousel-inner img {
+    object-fit: cover; /* works as a cover image for a carousel */
+    height: 44rem;
+}
+
+.carousel-caption {
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    color: black;
+}
+
+.carousel-control-next,
+.carousel-control-prev, 
+.carousel-indicators {
+    filter: invert(100%); /* changes color shadows of control arrows in carousel */
+}
+
+/*--------- most popular section ---------*/
+
+.bottom_line { /* black division line for "most popular" and "all categories" */
+    border-bottom: 0.07rem solid black;
+}
+
+.each_book {
+    width: 13rem; /* gives the width of dotted box of each book */
+}
+
+.height_image {
+    max-height: 16rem;
+}
+
+.info_book {
+    flex-basis: 180px; /* height in px for the text area, works ok in responsive mode */
+    width: 200px; /* width in px, works ok in responsive mode */
+}
+
+.book_title {
+    font-size: 1rem;
+}
+
+.lighter_font {
+    font-weight: lighter;
+    font-size: 0.9rem;
+    font-family: 'Arial', sans-serif;
+}
+
+.fa-star {
+    color:  rgb(255, 208, 0);
+}
+
+.each_book img { /* transforms image - smaller */
+    transition: all 0.8s;
+    transform: all 0.8s;
+}
+
+.each_book:hover img { /* transforms image - smaller */
+    transition: all 0.8s;
+    transform: scale(0.93);
+}
+
+.page-link{
+    color: black;
+}
+
+.page-link:hover{
+    color: grey;
+}
+
+.page-link:focus
+{
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075), 0 0 8px rgba(252, 227, 4, 0.5); /* adds smooth yellow frame @click */
+}
+
+/*--------- all categories section ---------*/
+
+.categories_list {
+    font-size: 1rem;
+}
+
+.category {
+    color: black;
+}
+
+.category:hover {
+    text-decoration: none;
+    color: pink;
+}
+
+/*--------- subscribe section ---------*/
+
+.kreative_jumbotron {
+    margin: 0px auto; /* removes included jumbotron auto margin-bottom */
+    background: url(../img/book_ecommerce_gradient.png) center/cover; /* we use same center/cover css */
+    color: black;
+}
+
+.dark_jumbotron {
+    background: black;
+    color: white;
+    margin: 0px auto;
+}
+
+/*--------- footer section ---------*/
+
+footer {
+    background-color: black;
+    color: white;
+}
+
+.kreative-minilogo {
+    max-height: 2.5rem;
+}
+
+.support_services {
+    font-weight: lighter;
+    font-size: 1.5vh;
+    line-height: 220%;
+}
+
+.support_services li:first-child { /* Makes lists title bold */ 
+    font-weight: bold;
+    font-size: 2vh;
+}
+
+.footer_link {
+    color: white;
+}
+
+.footer_link:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+.fa-twitter, .fa-facebook-f, .fa-pinterest-p, .fa-instagram { /* removes blue std color */
+    color: white;
+}
+
+.fa-twitter:hover, .fa-facebook-f:hover, .fa-pinterest-p:hover, .fa-instagram:hover { /* adds gray hover */
+    color: grey;
+}
+
+small{
+    color: rgb(77, 77, 77);
+    font-size: 0.8rem;
+}
+
+/*--------- media queries ---------*/
+
+@media all and (max-width: 1300px) {
+    .categories_list {
+        font-size: 0.8rem;
+    }
+}
+
+@media all and (max-width: 900px) {
+    .carousel-caption p {
+        font-size: 0.9rem;
+    }
+
+    .main_banner {
+        font-size: 3rem;
+    }
+
+    .half_highlight {
+        font-size: 1.5rem;
+    } 
+  
+}
+
+@media all and (max-width: 600px) {
+    .carousel-inner img { /* changes the image height */
+        height: 42rem;
+    }
+
+     .main_banner {
+        font-size: 2.5rem;
+    }
+}
+
+@media all and (max-width: 500px) {
+    .carousel-inner img {
+        height: 38rem;
+    }
+
+    .half_highlight {
+        font-size: 0.9rem;
+    } 
+    .main_banner {
+        font-size: 2.2rem;
+    }
+
+    .carousel-caption button {
+        font-size: 0.8rem;
+    }
+
+    .modal-title {
+        font-size: 1.2rem;
+    }
+
+    .form-check-label {
+        font-size: 0.9rem;
+    }
+}
+
+@media all and (max-width: 400px) {
+    .carousel-inner img {
+        height: 34rem;
+    }
+
+    .main_banner {
+        font-size: 2rem;
+    }
+
+    .half_highlight {
+        font-size: 0.9rem;
+    } 
+
+    .modal-title {
+        font-size: 1.2rem;
+    }
+    
+    .form-check-label {
+        font-size: 0.9rem;
+    }
+}
+
+@media all and (max-width: 350px) {
+    .carousel-inner img {
+        height: 33rem;
+    }
+
+    .main_banner {
+        font-size: 1.8rem;
+    }
+
+    .half_highlight {
+        font-size: 0.9rem;
+    } 
+
+    .modal-title {
+        font-size: 1.2rem;
+    }
+    
+    .form-check-label {
+        font-size: 0.9rem;
+    }
+
+}
