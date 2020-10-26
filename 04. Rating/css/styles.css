@@ -1,0 +1,53 @@
+* {
+    background-color: mediumslateblue;
+}
+.heart_group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    direction: rtl;
+}
+.heart_group input { /* hides radio buttons */
+    display: none;
+}
+
+.heart_group label {
+    margin: 0.8rem;
+    color: salmon;
+    transition: all 0.2s ease;
+}
+
+/* only hovers */
+input:not(:checked) ~ label:hover, 
+input:not(:checked) ~ label:hover ~ label {
+    color: aquamarine;
+}
+
+/* clicks on icons and leaves hover color on */
+
+input#rate-1:checked ~ label { /* selects sibling label */
+    color: aquamarine;
+}
+
+input#rate-2:checked ~ label {
+    color: aquamarine;
+}
+
+input#rate-3:checked ~ label {      
+    color: aquamarine;
+}
+
+input#rate-4:checked ~ label {
+    color: aquamarine;
+}
+
+input#rate-5:checked ~ label {
+    color: aquamarine;
+    text-shadow: 0 0 25px goldenrod; /* we add a text shadow for decoration purposes when 5 stars are selected */
+}
+
+/* css selectors description: https://code.tutsplus.com/es/tutorials/the-30-css-selectors-you-must-memorize--net-16048 
+   css selector hermanos generales: https://developer.mozilla.org/es/docs/Web/CSS/Selectores_hermanos_generales
+   css general sibling selector: https://www.w3schools.com/css/css_combinators.asp
+*/
