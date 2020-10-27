@@ -26,23 +26,23 @@ input:not(:checked) ~ label:hover ~ label {
 
 /* clicks on icons and leaves hover color on */
 
-input#rate-1:checked ~ label { /* selects sibling label */
+input#heart-1:checked ~ label { /* selects sibling label */
     color: aquamarine;
 }
 
-input#rate-2:checked ~ label {
+input#heart-2:checked ~ label {
     color: aquamarine;
 }
 
-input#rate-3:checked ~ label {      
+input#heart-3:checked ~ label {      
     color: aquamarine;
 }
 
-input#rate-4:checked ~ label {
+input#heart-4:checked ~ label {
     color: aquamarine;
 }
 
-input#rate-5:checked ~ label {
+input#heart-5:checked ~ label {
     color: aquamarine;
     text-shadow: 0 0 25px goldenrod; /* we add a text shadow for decoration purposes when 5 stars are selected */
 }
