@@ -11,40 +11,8 @@
 
     <input type="button" onClick="repeat()" Value="Check Clarissa's name letters"/>
     <p id="demo"> </p>
-
-    <script>
-        
-function repeat() 
-        { 
-            let nameLetter = ['c', 'l', 'a', 'r', 'i', 's', 's', 'a'];
-            var nameList = new Array();
-
-                for (let i = 0; i < nameLetter.length; i++)
-                {
-                    nameList.push(nameLetter[i]);
-                }
-
-            var nameDicc = new Map();
-
-                for (item of nameList)
-                {
-                    if(!nameDicc.has(item))
-                {
-                    nameDicc.set(item, 1);
-                }
-                else
-                {
-                    nameDicc.set(item, (nameDicc.get(item)) + 1);
-                }
-                }
-                
-                for (item of nameDicc)
-                {
-                    document.getElementById("demo").innerHTML += (item + "<br>");
-                }       
-        }
-
-    </script>
+      
+    <script src="js/scripts.js"></script>
 </body>
 </html>
 
