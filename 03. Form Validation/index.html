@@ -523,9 +523,10 @@
                         <p>Get our updates in your inbox</p>
                     </article>
                 </div>
-                <form class="form-inline justify-content-center ">
-                    <input type="email" class="form-control form-control-sm col-sm-3 mr-1 dotted-box" placeholder="Enter email" id="inputEmail">
-                    <button class="btn mt-1 stylebutton text-white mb-1" href="#" type="button">Subscribe</button>
+                <form method="POST" action="" id="myFormId4" onsubmit="return subscribeValidate()" name="myForm4" class="form-inline justify-content-center ">
+                    <input type="text" class="form-control form-control-sm col-sm-3 mr-1 dotted-box" placeholder="Enter email" id="inputEmail3" aria-label="Email">
+                    <button class="btn mt-1 stylebutton text-white mb-1" href="#" type="submit">Subscribe</button>  <!-- button must have type=submit for it to return onsubmit=function()-->
+                    <div class="invalid-feedback text-center" id="errorSubscribe"></div>
                 </form>
             </section>
         </section>
