@@ -39,5 +39,15 @@ Objectives: validate web page forms with Javascript.
 Tip: use "is-invalid" class with Bootstrap 4, not alerts!.
 
 
+## Rating
 
+![](hearts.gif)
+
+Objectives: practice HTML, CSS and Javascript.
+
+* `1` Print to console 5 colored stars. 
+* `2` Each star changes color when the mouse hovers on top. 
+* `3` When the mouse hovers on top of a star, all stars behind change color as well.
+* `4` When clicking on a star, new color must be applied. This new color is applied to all stars behind the selected star as well.
+* `5` If you click on another star, colors must update accordingly. Also when clicking outside the stars, all stars must be deselected. 
 
